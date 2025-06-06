@@ -66,4 +66,3 @@ const uristsContainer = document.querySelector(".urist");
       item.textContent = dataTitleUrist[index];
            });
     }
-
