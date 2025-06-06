@@ -13,7 +13,7 @@
 	margin-left:auto;
 	margin-right:auto;
 	width:900px;
-	height: 500px;
+	height: 450px;
 	background-attachment: scroll;
 	background-repeat: no-repeat;
 	background-position: right center;
@@ -50,7 +50,6 @@
 }
 
 #content_container_5 {
-        margin-top: 130px;
 	margin-left:auto;
 	margin-right:auto;
 	width:900px;
@@ -261,4 +260,54 @@
 	.content_container_4 {
 		width: 75%;
 	}
+}
+
+
+.urist__card {
+    width: 1350px; /*задаем ширину слайдера с карточками */
+    margin-top: 60px; /*отступ сверху*/
+    display: flex; /* Используем flexbox для выравнивания карточек в строку*/
+    gap: 40px; /* промежуток между карточками */
+    overflow: hidden;/* если содержимое выходит за пределы карточки, то скрытие лишнего */
+}
+
+.urist__img {
+    min-width: 360px; /*устанавливаем минимальную ширину для каждого изображения*/
+
+}
+
+.urist__item {
+    width: 360px; /*устанавливаем ширину для каждого элемента*/
+    transition: 0.3s ease; /* плавное изменение отображения длительностью 0.3 секунды */
+   }
+
+.urist__link {
+    border: none; /* убираем рамку у кнопки*/
+    margin-top: 20px; /*отступ сверху*/
+    color: #d52027; /*цвет текста*/
+    cursor: pointer; /* курсор меняем на указатель */
+}
+.urist__left-swiper {
+	width: 30px;
+	height: 30px;
+}
+.urist__right-swiper {
+	width: 30px;
+	height: 30px;
+}
+.urist__img1{
+	width: 204px;
+	height: 192px;
+}
+.urist__img2{
+	width: 204px;
+	height: 192px;
+}
+.urist__img3{
+	width: 204px;
+	height: 192px;
+}
+.urist__img4{
+	width: 204px;
+	height: 192px;
 }
